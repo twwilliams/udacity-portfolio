@@ -8,11 +8,11 @@
   <title>Tommy Williams: Portfolio Project</title>
 
   <!-- Bootstrap 4 CSS -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Font Awesome icons -->
-  <!-- <script src="https://use.fontawesome.com/6e54aa345c.js"></script> -->
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        rel="stylesheet">
 
   <!-- Custom styles for the portfolio -->
   <link href="css/portfolio.css" rel="stylesheet">
@@ -20,15 +20,19 @@
 
 <body>
   <header>
-    <div class="collapse bg-dark" id="navbarHeader">
+    <div class="collapse bg-black" id="navbarHeader">
       <div class="container">
         <div class="row">
           <div class="col-sm-8 py-4">
-            <h4 class="text-white">About</h4>
             <p class="text-muted">
-              Portfolio of work from the Udacity Full Stack Web Developer Nanodegree program.
-              Since this is only the second project in the program, the number of projects
-              will initially be small. New projects will be added throughout the program.
+              <img src="img/logo-200.png" class="logo" alt="Tommy Williams logo">
+              Tommy Williams has worked on software for the past 26 years in a variety of roles as
+              an individual contributor, lead, and manager. Throughout his career, he has found the
+              greatest satisfaction in solving tough problems, especially by writing code. So,
+              during his time off to recover from a back injury in the summer of 2017, he decided to
+              return to a hands-on role where software development is his primary focus. He has been
+              taking courses to refresh his knowledge of modern Web development, including pursuing
+              a nanodegree program in full-stack Web development at Udacity.
             </p>
           </div>
           <div class="col-sm-4 py-4">
@@ -59,17 +63,168 @@
         </div>
       </div>
     </div>
-    <div class="navbar navbar-dark bg-dark">
+    <div class="navbar navbar-dark bg-black">
       <div class="container d-flex justify-content-between">
-        <h1 class="text-light">Tommy Williams: Portfolio</h1>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader"
-          aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarHeader" aria-controls="navbarHeader"
+                aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       </div>
     </div>
   </header>
 
+  <main>
+    <section class="jumbotron text-right text-light">
+      <div class="container">
+        <h1 class="display-3">Tommy Williams</h1>
+        <h2 class="font-weight-light">Udacity Student</h2>
+        <p class="lead">
+          Portfolio of work from the Udacity Full Stack Web Developer Nanodegree program. Since this
+          is only the second project in the program, the number of projects will initially be small.
+          New projects will be added throughout the program.
+        </p>
+      </div>
+    </section>
+
+    <div class="album">
+      <div class="container">
+
+        <div class="row text-muted text-center">
+          <div class="col">
+            <h2 class="display-4">Featured Work</h2>
+          </div>
+        </div>
+
+        <div class="row my-5">
+          <div class="col-md-4">
+            <div class="card text-center">
+              <img src="img/movie-trailer-project.png" class="card-img-top"
+                   alt="Movie Trailer Project">
+              <div class="card-body">
+                <h4 class="card-title text-uppercase">Movie Trailer Site</h4>
+                <p class="card-text text-center">
+                  <a href="https://github.com/twwilliams/ud036_StarterCode"
+                     class="btn btn-primary btn-block text-center"
+                     aria-label="See the source code on GitHub"
+                     target="_blank">See it on GitHub</a>
+                </p>
+              </div>
+              <div class="card-footer text-muted">
+                Python
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card text-center">
+              <img src="img/project-portfolio.png" class="card-img-top"
+                   alt="Project Portfolio">
+              <div class="card-body">
+                <h4 class="card-title text-uppercase">Project Portfolio</h4>
+                <p class="card-text text-center">
+                  <a href="https://github.com/twwilliams/udacity-portfolio"
+                     class="btn btn-primary btn-block text-center"
+                     aria-label="See the source code on GitHub"
+                     target="_blank">See it on GitHub</a>
+                </p>
+              </div>
+              <div class="card-footer text-muted">
+                HTML and CSS
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card text-center">
+              <img src="img/under-construction.png" class="card-img-top"
+                   alt="Under Construction">
+              <div class="card-body">
+                <h4 class="card-title text-uppercase">Logs Analysis</h4>
+                <p class="card-text text-center">
+                  <a href="https://github.com/twwilliams/"
+                     class="btn btn-primary btn-block text-center"
+                     aria-label="See the source code on GitHub"
+                     target="_blank">See it on GitHub</a>
+                </p>
+              </div>
+              <div class="card-footer text-muted">
+                SQL
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row my-5">
+            <div class="col-md-4">
+              <div class="card text-center">
+                <img src="img/under-construction.png" class="card-img-top"
+                     alt="Under Construction">
+               <div class="card-body">
+                  <h4 class="card-title text-uppercase">Item Catalog</h4>
+                  <p class="card-text text-center">
+                    <a href="https://github.com/twwilliams/"
+                       class="btn btn-primary btn-block text-center"
+                       aria-label="See the source code on GitHub"
+                       target="_blank">See it on GitHub</a>
+                  </p>
+                </div>
+                <div class="card-footer text-muted">
+                  Python, Flask, REST, OAuth, SQL
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card text-center">
+                <img src="img/under-construction.png" class="card-img-top"
+                     alt="Under Construction">
+                <div class="card-body">
+                  <h4 class="card-title text-uppercase">Neighbor&shy;hood Map</h4>
+                  <p class="card-text text-center">
+                    <a href="https://github.com/twwilliams/"
+                       class="btn btn-primary btn-block text-center"
+                       aria-label="See the source code on GitHub"
+                       target="_blank">See it on GitHub</a>
+                  </p>
+                </div>
+                <div class="card-footer text-muted">
+                  JavaScript, Third Party APIs
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card text-center">
+                <img src="img/under-construction.png" class="card-img-top"
+                     alt="Under Construction">
+                <div class="card-body">
+                  <h4 class="card-title text-uppercase">Linux Config</h4>
+                  <p class="card-text text-center">
+                    <a href="https://github.com/twwilliams/"
+                       class="btn btn-primary btn-block text-center"
+                       aria-label="See the source code on GitHub"
+                       target="_blank">See it on GitHub</a>
+                  </p>
+                </div>
+                <div class="card-footer text-muted">
+                  Linux Administration
+                </div>
+              </div>
+            </div>
+          </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="text-muted">
+    <div class="container">
+      <p class="float-right">
+        <a href="#">Back to top</a>
+      </p>
+    </div>
+  </footer>
 
   <!-- JavaScript required for Bootstrap 4 -->
   <script src="js/jquery-3.2.1.slim.min.js"></script>

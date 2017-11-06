@@ -1,3 +1,15 @@
-.fa-2x {
-  vertical-align: middle;
+.jumbotron {
+  background: url("../img/night-sky.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: local;
+  background-color: rgba(0, 0, 0, 0.7);
+  min-height: 12rem;
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.logo {
+  float: left;
 }
