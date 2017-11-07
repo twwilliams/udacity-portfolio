@@ -1,8 +1,15 @@
+h4 {
+  color: #2d3c49
+}
+
+.text-muted {
+  color: #7d97ad
+}
+
 .jumbotron {
   background: url("../img/night-sky.jpg") no-repeat;
   background-size: cover;
   background-attachment: local;
-  background-color: rgba(0, 0, 0, 0.7);
   min-height: 12rem;
 }
 
@@ -12,4 +19,9 @@
 
 .logo {
   float: left;
+  max-width: 180px;
+}
+
+.social-link {
+  margin: 0.75rem auto 0.75rem;
 }
